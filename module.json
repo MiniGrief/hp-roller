@@ -1,0 +1,18 @@
+{
+  "id": "hp-roller",
+  "title": "Hit Point Roller",
+  "description": "Rolls hit points, similar to Token Mold. But less clutter.",
+  "authors": [
+    {
+      "name": "Tomato"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.301"
+  },
+  "scripts": [
+    "scripts/main.js"
+  ]
+}
