@@ -13,14 +13,14 @@ Hooks.on("init", () => {
 
 Hooks.on("getSceneControlButtons", (controls) => {
 	const hproll = {
-      icon: "fas fa-heart-circle-bolt",
-      name: "hproll",
-      title: "Toggle HP Rolling",
-      toggle: true,
-      visible: true,
-      onClick: toggled => rollenabled = toggled
-    };
-    controls.find((control) => control.name === "token").tools.push(hproll);
+		icon: "fas fa-heart-circle-bolt",
+		name: "hproll",
+		title: "Toggle HP Rolling",
+		toggle: true,
+		visible: true,
+		onClick: toggled => rollenabled = toggled
+	};
+	controls.find((control) => control.name === "token").tools.push(hproll);
 });
 
 Hooks.on("preCreateToken", (token, data, options, userId) => {
