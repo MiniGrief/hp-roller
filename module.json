@@ -14,5 +14,9 @@
   },
   "scripts": [
     "scripts/main.js"
-  ]
+  ],
+  "url": "https://github.com/MiniGrief/hp-roller/",
+  "download": "https://github.com/MiniGrief/hp-roller/releases/download/1.0.0/hp-roller.zip",
+  "manifest": "https://github.com/MiniGrief/hp-roller/releases/latest/download/module.json",
+  "bugs": "https://github.com/MiniGrief/hp-roller/issues"
 }
